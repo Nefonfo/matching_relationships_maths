@@ -1,5 +1,5 @@
-### MATCHING RELATIONSHIPS ###
-## only linear sequences without jumps ## 
+# MATCHING RELATIONSHIPS #
+### only linear sequences without jumps ## 
 
 
 ## INSTRUCTIONS ##
@@ -14,25 +14,26 @@ Modify the parameters to pass to the function (unlimited but check that the cell
 
 Example:
 
-    ```python
-    excelDict(
-        mod3 = {
-            'dictionary': dictOfCongruence(0,12,3),
-            'cellA': 'A',
-            'cellB': 'B'
-        },
-        mod5 = {
-            'dictionary': dictOfCongruence(0,12,5),
-            'cellA': 'C',
-            'cellB': 'D'
-        }
-        name(it will be the same in the cell 'x - name') = {
-            'dictionary': dictOfCongruence(firstNumber,LastNumber,Mod),
-            'cellA': 'CELL E-???',
-            'cellB': 'CELL F - ???'
-        }
-    )
-    ```
+```python
+excelDict(
+    mod3 = {
+        'dictionary': dictOfCongruence(0,12,3),
+        'cellA': 'A',
+        'cellB': 'B'
+    },
+    mod5 = {
+        'dictionary': dictOfCongruence(0,12,5),
+        'cellA': 'C',
+        'cellB': 'D'
+    }
+    # (it will be the same name in the cell 'x - name')
+    name = {
+        'dictionary': dictOfCongruence(firstNumber,LastNumber,Mod),
+        'cellA': 'CELL_E-???',
+        'cellB': 'CELL_F - ???'
+    }
+)
+```
 
 ### Step 3 ###
 Execute code:
